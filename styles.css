@@ -1,0 +1,23 @@
+#top-container{
+    display: flex;
+    background-color: #ffffff;
+    margin: -10px;
+    align-content: center;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+    
+.input{
+    border: 1px;
+    margin: 0 0 0 40px;
+    padding: 0 4px;
+    flex: 1;
+    box-sizing: border-box;
+    
+    
+}
