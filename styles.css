@@ -1,23 +1,25 @@
 #top-container{
     display: flex;
+    flex-direction: row;
     background-color: #ffffff;
-    margin: -10px;
+    padding: 10px;
+    height: 56px;
     align-content: center;
     justify-content: space-between;
 }
 .logo{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
+    flex:1;
+    display: flex;
+}
+.input{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
 }
     
-.input{
-    border: 1px;
-    margin: 0 0 0 40px;
-    padding: 0 4px;
+input{
+    width: 525px;
+}
+.top-right-container{
     flex: 1;
-    box-sizing: border-box;
-    
-    
 }
