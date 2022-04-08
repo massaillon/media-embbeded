@@ -33,3 +33,22 @@ input{
     flex: 1;
     background-color: green;
 }
+#main{
+    display: flex;
+    flex-direction: row;
+    background-color: lightcyan;
+    justify-content: space-between;
+}
+.main-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    
+}
+.main-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+}
