@@ -1,9 +1,15 @@
+#main-layout{
+    display: flex;
+    flex-direction: column;
+    height: 780px;
+    background-color: burlywood;
+}
 #top-container{
+    flex: 1;
     display: flex;
     flex-direction: row;
-    background-color: #ffffff;
-    padding: 10px;
-    height: 56px;
+    background-color:burlywood;
+    padding: 12px;
     gap: 7px;
     align-content: center;
     justify-content: space-between;
@@ -22,6 +28,9 @@
 
 input{
     width: 525px;
+    height: 26;
+    font-size: medium;
+    
 }
 .top-right-container{
     flex: 1;
@@ -33,16 +42,19 @@ input{
     flex: 1;
     background-color: green;
 }
+
 #main{
+    flex: 15;
     display: flex;
     flex-direction: row;
-    background-color: lightcyan;
+    background-color:black;
     justify-content: space-between;
+   
 }
 .main-left{
     flex: 1;
-    display: flex;
     flex-direction: column;
+    display: flex;
     background-color: lightgreen;
     
 }
