@@ -34,10 +34,25 @@ input{
     
 }
 .top-right-container{
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: row;
-    background-color: brown;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 5px;
+   /* background-color: brown;*/
+}
+.mic-container{
+    flex:1;
+    background-color: cornsilk;
+}
+.upload-video{
+    flex: 1;
+    background-color: darkkhaki;
+}
+.more-applications{
+    flex: 1;
+    background-color: darkseagreen;
 }
 .profile-details{
     flex: 1;
@@ -92,5 +107,15 @@ input{
     flex: 1;
     display: flex;
     flex-direction: row;
-    background-color: darkcyan;
+    padding: 5px;
+    gap: 5px;
+    /*background-color: darkcyan;*/
+}
+.right-box-R{
+    flex: 2;
+    /*background-color: white;*/
+}
+.right-box-L{
+    flex: 1;
+    /*background-color: wheat;*/
 }
