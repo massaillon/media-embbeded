@@ -44,19 +44,28 @@ input{
 }
 .mic-container{
     flex:1;
-    background-color: cornsilk;
+    border-style: solid;
+    border-radius: 15px;
+    border-radius: 1px;
+    border-color: darkred;
+    /*background-color: cornsilk;*/
 }
 .upload-video{
     flex: 1;
-    background-color: darkkhaki;
+    border-style: solid;
+    border-radius: 1px;
+    /*background-color: darkkhaki;*/
 }
 .more-applications{
     flex: 1;
-    background-color: darkseagreen;
+    border-style: solid;
+    border-radius: 15px;
+    border-radius: 1px;
+    /*background-color: darkseagreen;*/
 }
 .profile-details{
     flex: 1;
-    background-color: green;
+   /* background-color: green;*/
 }
 
 #main{
@@ -93,7 +102,11 @@ input{
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: chartreuse;
+    font-size:25px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+   /* background-color: chartreuse;*/
 }
 
 .main-right{
@@ -113,9 +126,34 @@ input{
 }
 .right-box-R{
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    text-decoration: none;
+    gap: 5px;
+    
     /*background-color: white;*/
 }
 .right-box-L{
     flex: 1;
     /*background-color: wheat;*/
+}
+.right-box-R-top{
+    flex: 1;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    /*color:black;*/
+    /*text-decoration: none;*/
+    /*background-color: thistle;*/
+}
+.right-box-R-bottom{
+    flex: 1;
+    font-size: medium;
+    font-family: sans-serif;
+    /*background-color:yellow;*/
+}
+a{
+    text-decoration: none;
+    /*color: black;*/
 }
